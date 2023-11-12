@@ -1,0 +1,25 @@
+Также, как и Евгений обещал, высылаем следующие дополнительные материалы. Обязательно пользуйтесь ими! 
+
+Сразу предупреждаю — основные источники информации (сайт towardsdatascience.com и medium.com) не работают без VPN.
+
+1.  Про проверку на мультиколлинеарность - отличная статья про библиотеку phik (одновременно умеет работать с различными типами признаков: числовые, категориальные, бинарные, ранговые и тд). Очень рекомендую ознакомиться и использовать в своих работах - https://towardsdatascience.com/phik-k-get-familiar-with-the-latest-correlation-coefficient-9ba0032b37e7
+
+2. На вэбинаре рассказывал про использование sklearn.pipeline в своем исследовании (если вы хотите выйти за пределы учебной программы). Скидываю вам материалы про Pipeline, ColumnTransformers, GridSearchCV:
+
+- вот статьи про Pipeline и Сolumntransformer
+1. https://medium.com/mlearning-ai/neat-data-preprocessing-with-pipeline-and-columntransformer-2a0468865b6b
+2. https://towardsdatascience.com/pipelines-custom-transformers-in-scikit-learn-the-step-by-step-guide-with-python-code-4a7d9b068156
+
+- вот статья про Pipeline и GridSearchCV - https://towardsdatascience.com/an-introduction-to-building-pipelines-and-using-grid-searches-in-scikit-learn-92ea72f9b5b7
+
+3. Примеры хороших отчетов можно посмотреть на сайте Stanford University - отчеты по финальным проектам направления Machine Learning - https://cs229.stanford.edu/projects2014.html. Из примеров понятно наполнение отчета по исследованию, а так же, что главное - понятна сама структура отчета.
+
+4. Оценка важности признаков. Можно воспользоваться встроенными стредствами в моделях (например атрибут у «деревянных» моделей feature_importances_). Вот хорошая обзорная статья по этой теме, где рассматриваются несколько методов из библиотеки sklearn - https://medium.com/analytics-vidhya/feature-importance-explained-bfc8d874bcf
+
+5. Библиотека shap — позволяет детально изучить работу модели, в том числе оценить важность признаков, при этом не привязана к работе конкретного алгортима прогнозирования. Вот статья с описанием ее работы — https://habr.com/ru/articles/428213/ и детальный разбор графиков - https://towardsdatascience.com/using-shap-values-to-explain-how-your-machine-learning-model-works-732b3f40e137
+
+6. Подбор гиперпараметров можно выполнять не только используя GridSearchCV и RandomizedGridSearchCV. Можно использовать более продвинутые (и эффективные) методы — почитайте про библиотеку scikit-optimize и ее методы - https://scikit-optimize.github.io/stable/auto_examples/sklearn-gridsearchcv-replacement.html. Так же есть библиотека optuna,  но ее использование сложнее чем все предыдущие методы — вот статья на русском https://habr.com/ru/articles/704432/
+
+7. Stacking и другие виды ансаблей - статья на towardsdatascience (нужен впн) - https://towardsdatascience.com/a-practical-guide-to-stacking-using-scikit-learn-91e8d021863d
+Гайд от sklearn - https://scikit-learn.org/stable/modules/ensemble.html
+
